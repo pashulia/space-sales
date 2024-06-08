@@ -1,0 +1,43 @@
+.sidebar {
+    width: 60px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sidebar-item {
+    margin: 20px 0;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.icon-dashboard:before {
+    content: '\f015'; /* Example FontAwesome icon code */
+    font-family: 'FontAwesome';
+}
+
+.icon-users:before {
+    content: '\f0c0';
+    font-family: 'FontAwesome';
+}
+
+.icon-messages:before {
+    content: '\f0e0';
+    font-family: 'FontAwesome';
+}
+
+.icon-analytics:before {
+    content: '\f080';
+    font-family: 'FontAwesome';
+}
+
+.icon-settings:before {
+    content: '\f013';
+    font-family: 'FontAwesome';
+}

@@ -1,0 +1,95 @@
+.user-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.user-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.user-email {
+    color: #888888;
+}
+
+.user-permissions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-permission {
+    background-color: #f0f0f0;
+    border: 1px solid #d0d0d0;
+    border-radius: 15px;
+    padding: 2px 8px;
+    margin: 2px;
+    font-size: 12px;
+}
+
+.user-role {
+    background-color: #f0f0f0;
+    border: 1px solid #5a21ea;
+    color: #5a21ea;
+    border-radius: 15px;
+    padding: 2px 8px;
+    margin: 2px;
+    font-size: 12px;
+}
+
+.user-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.user-actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.user-actions button:hover {
+    background-color: #0056b3;
+}
+
+.user-actions button:last-child {
+    background-color: #dc3545;
+}
+
+.user-actions button:last-child:hover {
+    background-color: #c82333;
+}
+
+.buttonsMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.btc {
+    margin-bottom: 3px;
+    border: none;
+    background-color: #fff;
+}

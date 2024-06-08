@@ -1,0 +1,14 @@
+.buttonAdd {
+    color: #fff;
+    background-color: #03e53b;
+    border: 1px solid #03e53b;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.inputAdd {
+    border: 1px solid #888888;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40%;
+}
