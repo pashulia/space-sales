@@ -69,7 +69,7 @@ const App = () => {
             <Sidebar/>
             <div className="main-content">
                 <div className="headerTeam">
-                    <h1 className='titleTeam'>Команда</h1>
+                    <h1 className='titleTeam'>Команда.</h1>
                     <UserForm className="userForm" addUser={addUser} data={data} />
                 </div>
                 
